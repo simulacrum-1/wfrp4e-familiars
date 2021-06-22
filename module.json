@@ -1,0 +1,42 @@
+{
+  "name": "wfrp4e-familiars",
+  "title": "WFRP4e – Familiars",
+  "description": "Familiars Henchmen content from Lawhammer Blog for Warhammer Fantasy Roleplay 4e",
+  "version": "0.0.1",
+  "author": "Simulacrum",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion" : "0.7.9",
+  "systems": ["wfrp4e"],
+  "packs": [
+    {
+      "name": "familiar_actors",
+      "label": "Actors (Familiars)",
+      "path": "packs/familiars-actors.db",
+      "entity": "Actor",
+      "module": "wfrp4e-familiars",
+      "system": "wfrp4e",
+      "tag": "actor"
+      },
+    {
+    "name": "familiar_items",
+    "label": "Items (Familiars)",
+    "path": "packs/familiars-items.db",
+    "entity": "Item",
+    "module": "wfrp4e-familiars",
+    "system": "wfrp4e",
+    "tag": "trappings"
+    },
+    {
+    "name": "familiar_journals",
+    "label": "Journals (Familiars)",
+    "path": "packs/familiars-journals.db",
+    "entity": "JournalEntry",
+    "module": "wfrp4e-familiars",
+    "system": "wfrp4e",
+    "tag": "Journal"
+    }
+  ],
+  "url": "https://github.com/simulacrum-1/wfrp4e-familiars",
+  "manifest": "https://github.com/simulacrum-1/wfrp4e-familiars/releases/download/0.0.1/module.json",
+  "download": "https://github.com/simulacrum-1/wfrp4e-familiars/releases/download/0.0.1/wfrp4e-familiars.zip"
+}
